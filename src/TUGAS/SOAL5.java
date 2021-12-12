@@ -5,7 +5,8 @@ import javax.swing.JOptionPane;
 public class SOAL5 {
     public static void main(String[] args) {
         String A = JOptionPane.showInputDialog("masukkan tanggal lahir");
-        JOptionPane.showMessageDialog(null, A.replace("-", " "));
+        String B = A.replace("-", " ");
+        JOptionPane.showMessageDialog(null, B.replaceAll("10", "oktober"));
 
     }
 }
