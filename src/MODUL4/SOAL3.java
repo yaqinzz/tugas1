@@ -1,4 +1,4 @@
-package LATIHAN4;
+package MODUL4;
 
 import javax.swing.JOptionPane;
 
