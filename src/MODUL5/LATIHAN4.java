@@ -32,7 +32,7 @@ public class LATIHAN4 {
                 break;
 
             default:
-                System.out.println(H + "masukkan huruf yang benar");
+                System.out.println("masukkan huruf yang benar");
                 break;
         }
         inp.close();
